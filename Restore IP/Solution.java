@@ -15,7 +15,7 @@ public class Solution {
 	public void restore(int step, int index, StringBuilder sb, String s,
 			ArrayList<String> res) {
 		if (step == 4 && index >= s.length()) {
-			String dd = sb.toString().substring(0, sb.length() - 1);
+			String dd = sb.toString().sub	string(0, sb.length() - 1);
 			res.add(dd);
 			return;
 		}
