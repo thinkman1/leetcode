@@ -15,7 +15,6 @@ public class Solution {
 			ListNode next = scan.next;
 
 			if (innerScan.val >= scan.val) {
-				ListNode n = res;
 				scan.next = res;
 				res = scan;
 			} else {
