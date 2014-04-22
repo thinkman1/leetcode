@@ -6,8 +6,7 @@
 public class Solution {
 	public ArrayList<String> restoreIpAddresses(String s) {
 		ArrayList<String> res = new ArrayList<String>();
-		if (s.length() < 4 || s.length() > 12)
-			return res;
+		if (s.length() < 4 || s.length() > 12) return res;
 		restore(0, 0, new StringBuilder(), s, res);
 		return res;
 	}
