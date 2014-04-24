@@ -37,7 +37,7 @@ public class Solution {
 					result.add(sb.toString());
 				} else {
 					int k = left / (c - 1); // extra ' ' for every gap
-					int l = left - k * (c - 1); // count for first gaps with extra ''
+					int l = left % (c - 1); // count for first gaps with extra ''
 					StringBuilder sb = new StringBuilder(words[start]);
 					for (int x = start + 1; x < j; x++) {
 						if (l > 0) {
