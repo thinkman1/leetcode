@@ -1,6 +1,8 @@
 /**
  * DP
  * 
+ * dp[i] indicates if string s.substring(0, i) can be segmented
+ * 
  * @author thinkman
  *
  */
