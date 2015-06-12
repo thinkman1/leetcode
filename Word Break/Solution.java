@@ -2,7 +2,7 @@
  * DP
  * 
  * dp[i] indicates if string s.substring(0, i) can be segmented
- * 
+ * Test git from Mac 
  * @author thinkman
  *
  */
